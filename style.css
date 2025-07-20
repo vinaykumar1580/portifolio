@@ -62,8 +62,15 @@ section{
     padding:7px;
 }
 
-.about {
+@media (max-width:60px){
+    section .about{
+       padding:10px;
+      font-size: 16px;
+     }
+}
 
+.about {
+  height: 100vh;
   background-color: #f7f7f7;
   padding: 10px 20px;
   font-family: 'Segoe UI', sans-serif;
@@ -136,14 +143,15 @@ section{
 }
 /* Section container */
 .skills-section {
-  background-color: #f9f9f9;
-  padding: 20px 250px;
-  border-radius: 20px;
-  max-width: 1000px;
-  height: 100vh;
-  margin: 40px auto;
-  text-align: center;
-  font-family: 'Segoe UI', sans-serif;
+    height: 100vh;
+    border:1px solid grey;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:7px;
 }
 
 /* Heading */
@@ -182,12 +190,15 @@ section{
 }
 
 .projects-section {
-  padding: 20px 250px;
-  text-align: center;
-  font-family: 'Segoe UI', sans-serif;
-  border-radius: 20px;
-  max-width: 1000px;
-  margin: 50px auto;
+  height: 100vh;
+    border:1px solid grey;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:7px;
 }
 
 .projects-section .section-title {
