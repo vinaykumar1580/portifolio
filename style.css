@@ -62,7 +62,7 @@ section{
     padding:7px;
 }
 
-@media (max-width:60px){
+@media (max-width:600px){
     section .about{
        padding:10px;
       font-size: 16px;
